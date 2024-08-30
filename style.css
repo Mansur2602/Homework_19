@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap'); 
+body{ 
+    background-color: black; 
+} 
+ 
+.calculator{ 
+ 
+    width: 335px; 
+    height: 424px; 
+    margin: auto; 
+    margin-top: 322px; 
+    
+} 
+ 
+.big_buttons{ 
+    width: 335px; 
+    height: 72px; 
+    display: flex; 
+    justify-content: space-between; 
+    margin-top: 16px;
+ 
+} 
+ 
+.procent{ 
+    border-radius: 24px; 
+width: 159px; 
+height: 72px; 
+background: #4b5efc; 
+font-family: "Work Sans", sans-serif; 
+font-weight: 400; 
+font-size: 32px; 
+line-height: 125%; 
+text-align: center; 
+color: #fff; 
+border: none; 
+ 
+} 
+ 
+.division{ 
+    border-radius: 24px; 
+width: 159px; 
+height: 72px; 
+background: #4b5efc; 
+font-family: "Work Sans", sans-serif; 
+font-weight: 400; 
+font-size: 32px; 
+line-height: 125%; 
+text-align: center; 
+color: #fff; 
+border: none; 
+} 
+ 
+.small_buttons{ 
+    width: 335px; 
+    height: 336px; 
+    margin-top: 16px; 
+    display: flex; 
+    justify-content: space-between; 
+    flex-wrap: wrap; 
+    pad: 16px; 
+    
+} 
+ 
+.black_mini{ 
+    border-radius: 24px; 
+width: 71px; 
+height: 72px; 
+background: #2e2f38; 
+font-family: "Work Sans", sans-serif; 
+font-weight: 400; 
+font-size: 32px; 
+line-height: 125%; 
+text-align: center; 
+color: #fff; 
+border: none; 
+} 
+ 
+.blue_mini{ 
+    border-radius: 24px; 
+width: 71px; 
+height: 72px; 
+background: #4b5efc; 
+font-family: "Work Sans", sans-serif; 
+font-weight: 400; 
+font-size: 32px; 
+line-height: 125%; 
+text-align: center; 
+color: #fff; 
+border: none; 
+} 
+ 
+.display{ 
+    width: 150px; 
+    height: 20px; 
+    margin: auto; 
+    font-family: "Work Sans", sans-serif; 
+    font-weight: 400; 
+    font-size: 32px; 
+    color: #fff; 
+    margin-top: 50px; 
+}
+
+.C{
+    border-radius: 24px;
+width: 335px;
+height: 72px;
+background: #4e505f;
+font-family: "Work Sans", sans-serif; 
+font-weight: 400;
+font-size: 32px;
+line-height: 125%;
+text-align: center;
+color: #fff;
+border: none;
+}
